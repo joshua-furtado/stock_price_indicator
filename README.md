@@ -15,6 +15,7 @@ stock_price_indicator:
 - sklearn
 - pandas_datareader
 - Tensorflow 2
+- keras-tuner
 
 ## Folder Descriptions
 
