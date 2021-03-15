@@ -19,10 +19,7 @@ stock_price_indicator:
 
 ## Folder Descriptions
 
-1. [images](https://github.com/joshua-furtado/stock_price_indicator/tree/main/images)
-	- Contains images used in the Medium blog post
-
-2. [notebooks](https://github.com/joshua-furtado/stock_price_indicator/tree/main/notebooks)
+1. [notebooks](https://github.com/joshua-furtado/stock_price_indicator/tree/main/notebooks)
 	- Contains Jupyter notebooks (names prefixed in sequential order)
 
 ## Notebook Descriptions
@@ -36,10 +33,13 @@ stock_price_indicator:
 3. [3_predict_stock_data_using_LSTM.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/3_predict_stock_data_using_LSTM.ipynb)
 	- Train and evaluate LSTM neural network to predict future stock prices 
 
-4. [4_predict_stock_data_using_machine_learning_results.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/4_predict_stock_data_using_machine_learning_results.ipynb)
+4. [4_LSTM_hyperparameter_tuning.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/4_LSTM_hyperparameter_tuning.ipynb)
+	- Improve upon the base LSTM model by evaluating a range of values in the hyperparameter space using cross validation
+
+5. [5_predict_stock_data_using_machine_learning_results.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/5_predict_stock_data_using_machine_learning_results.ipynb)
 	- Evaluate linear regression to predict stock prices 1, 7, 14, 28 and 56 days into the future. 
 
-5. [5_predict_stock_data_using_LSTM_results.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/5_predict_stock_data_using_LSTM_results.ipynb)
+6. [6_predict_stock_data_using_LSTM_results.ipynb](https://github.com/joshua-furtado/stock_price_indicator/blob/main/notebooks/6_predict_stock_data_using_LSTM_results.ipynb)
 	- Evaluate LSTM neural network to predict stock prices 1, 7, 14, 28 and 56 days into the future. 
 
 ## Results
